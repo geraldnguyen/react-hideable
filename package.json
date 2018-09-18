@@ -1,6 +1,6 @@
 {
   "name": "react-hideable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple hideable container",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,19 @@
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldnguyen/react-hideable.git"
+  },
   "keywords": [
     "react-hideable"
   ],
   "author": "Gerald Nguyen",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geraldnguyen/react-hideable/issues"
+  },
+  "homepage": "https://github.com/geraldnguyen/react-hideable#readme",
   "peerDependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
