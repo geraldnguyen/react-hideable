@@ -1,5 +1,4 @@
-src
-examples
+example/dist
 .babelrc
 .gitignore
 webpack.config.js
