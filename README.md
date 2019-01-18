@@ -20,7 +20,7 @@ appear() {
 ```javascript
 const hideMe = (
     <div>
-        <h1>I'm visible</h1>
+        <h1>I am visible</h1>
         <button onClick={this.closeContainer}>Hide me</button>
     </div>
 )
